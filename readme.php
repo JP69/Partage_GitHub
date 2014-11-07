@@ -6,13 +6,14 @@
     </head>
     <body> 
         <?php
-            echo "Partage_GitHub<br>";
-            echo "<br>";
-            echo "Ce Repository a &eacutet&eacute cr&eacute&eacute dans le cadre de l'activit&eacute 'Partagez un Repository sur GitHub'<br>";
-            echo "de la formation Openclassrooms 'G&eacuterer son code avec Git et GitHub'<br>";
-            echo "(http://openclassrooms.com/courses/gerer-son-code-avec-git-et-github).<br>";
-            echo "<br>";
-            echo "Il ne contient aucun code ni aucune informaton utile.";
+            $message = "Partage_GitHub<br>";
+            $message .= "<br>";
+            $message .= "Ce Repository a &eacutet&eacute cr&eacute&eacute dans le cadre de l'activit&eacute 'Partagez un Repository sur GitHub'<br>";
+            $message .=  "de la formation Openclassrooms 'G&eacuterer son code avec Git et GitHub'<br>";
+            $message .=  "(http://openclassrooms.com/courses/gerer-son-code-avec-git-et-github).<br>";
+            $message .=  "<br>";
+            $message .=  "Il ne contient aucun code ni aucune informaton utile.";
+            echo $message;
         ?>
     </body>
 </html>
